@@ -301,3 +301,6 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="05c6", MODE="0666", GROUP="plugdev"
 
 #ADVANCE S5
 SUBSYSTEM=="usb", ATTR{idVendor}=="0a5c", ATTR{idProduct}=="e681", MODE="0666", GROUP="plugdev"
+
+#XIAOMI REDMI 1S
+SUBSYSTEM=="usb", SYSFS(idVendor)=="18d1", MODE="0666"
